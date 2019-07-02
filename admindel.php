@@ -1,6 +1,8 @@
 <?php 
 spl_autoload_register();
-use App\RegistrationBase;
+include_once   '/classes/InviteForm.php';
+include_once   '/classes/Database.php';
+
 $form= new InviteForm;
 $form->del_in_bd();
 
