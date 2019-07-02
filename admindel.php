@@ -7,6 +7,6 @@ $form= new InviteForm;
 $form->del_in_bd();
 
 <form action="admin.php">
-	<p><input type="submit" value="Вернуться к файлам"></p>
+	<p><input type="submit" value="Вернуться ко всем  данным"></p>
 </form>
 ?>
